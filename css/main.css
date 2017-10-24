@@ -18,10 +18,12 @@ li a {
     text-decoration: none;
 }
 
+li:hover {
+    color: #db964d;
+}
 ul li {
     display: inline;
     margin: 5px;
-    padding: 10px;
     list-style: none;
 }
 
@@ -42,4 +44,48 @@ nav {
 
 .box-header {
     display: inline-block;
+}
+
+.logo-square {
+    width: 100px;
+}
+
+section {
+    text-align: center;
+    margin: 20px;
+}
+
+div {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 2px;
+    width: 33%;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-size: 40px;
+    transition: 1s;
+}
+
+[class^="icon-"]:hover, [class*=" icon-"]:hover {
+    color: #db964d;
+}
+
+footer {
+    background-color: #303030;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+}
+
+button {
+    background-color: #db964d;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+button:hover {
+    background-color: orange;
 }
