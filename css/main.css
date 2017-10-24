@@ -1,3 +1,45 @@
+/*setear css*/
 body {
-    background-color: floralwhite;
+    box-sizing: border-box;
+    color: #303030;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Clases reutilizables*/
+/*Puede usarse en vez de la clase h1+h3+ul, etc para anexarlo*/
+.text-uppercase {
+    text-transform: uppercase;
+}
+/*Clases específicas*/
+li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline;
+    margin: 5px;
+    padding: 10px;
+    list-style: none;
+}
+
+.logo-header {
+    width: 200px;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%); /*Buscar: ubicar verticalmente un elemento*/
+}
+
+.box-header {
+    display: inline-block;
 }
